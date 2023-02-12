@@ -1,290 +1,315 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Maximilian Kraus",
+	title: "Maximilian Kraus",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm a versatile software & ML engineer with expertise in backend development, machine learning, cloud infrastructure, and data pipelines. I consistently deliver high-quality solutions with a combination of technical expertise, creative problem-solving, and excellent collaboration skills.",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"todo",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "krausmaximilian",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	url: "https://maximilian-kraus.de",
+	linkedin: "https://www.linkedin.com/in/maximilian-kraus1994/",
+	github: "https://github.com/krausmaximilian/",
 };
 
 export const skillsSection = {
 	title: "What I do",
-	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+	subTitle: "",
 	data: [
 		{
-			title: "Full Stack Development",
+			title: "Backend Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Creating and maintaining web application such as www.airteam.cloud"),
 				emoji(
 					"⚡ Building RESTful APIs in Django & Django REST Framework"
 				),
+				emoji(
+					"⚡ Hosting and maintaining web applications on virtual machine instances along with integration of databases"
+				),
 			],
 			softwareSkills: [
-				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
-				},
-				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
-				},
-				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-				},
-				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
-				},
 				{
 					skillName: "Python",
 					fontAwesomeClassname: "logos:python",
 				},
 				{
 					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
+					fontAwesomeClassname: "logos:django",
+				},
+				{
+					skillName: "Django Rest",
+					fontAwesomeClassname: "skill-icons:django",
+				},
+				{
+					skillName: "Docker",
+					fontAwesomeClassname: "logos:docker",
+				},
+				{
+					skillName: "PyCharm",
+					fontAwesomeClassname: "logos:pycharm",
+				},
+				{
+					skillName: "C Sharp",
+					fontAwesomeClassname: "logos:c-sharp",
+				},
+				{
+					skillName: "Celery",
+					fontAwesomeClassname: "simple-icons:celery",
 				},
 
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Nginx",
+					fontAwesomeClassname: "vscode-icons:file-type-nginx",
 				},
 				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
+					skillName: "Sentry",
+					fontAwesomeClassname: "logos:sentry-icon",
+				},
+								{
+					skillName: "Github",
+					fontAwesomeClassname: "akar-icons:github-fill",
 				},
 				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
+					skillName: "Gitlab",
+					fontAwesomeClassname: "logos:gitlab",
 				},
+				{
+					skillName: "Jira",
+					fontAwesomeClassname: "logos:jira",
+				},
+				{
+					skillName: "Grasshopper",
+					fontAwesomeClassname: "noto:grasshopper",
+				},
+				{
+					skillName: "Linux",
+					fontAwesomeClassname: "skill-icons:linux-dark",
+				},
+				{
+                    skillName: "Kanban",
+                    fontAwesomeClassname: "material-symbols:view-kanban-outline-rounded"
+                },
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
+			title: "Cloud Infrastructure",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
 				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+					"⚡ Infrastructure as Code"
 				),
 				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+					"⚡ Building CI/CD pipelines for automated testing & deployment using Gitlab CI/CD"
 				),
 			],
 			softwareSkills: [
-				// ? Check README To get icon details
 				{
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",
 				},
 				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
+					skillName: "S3",
+					fontAwesomeClassname: "logos:aws-s3",
 				},
 				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
+					skillName: "EC2",
+					fontAwesomeClassname: "logos:aws-ec2",
+				},
+				{
+					skillName: "Load Balancing",
+					fontAwesomeClassname: "carbon:load-balancer-application",
+				},
+				{
+					skillName: "GCP",
+					fontAwesomeClassname: "logos:google-cloud",
+				},
+				{
+					skillName: "Big Query",
+					fontAwesomeClassname: "tabler:brand-google-big-query",
+				},
+				{
+					skillName: "PubSub",
+					fontAwesomeClassname: "carbon:message-queue",
+				},
+				{
+					skillName: "Apache Beam",
+					fontAwesomeClassname: "logos:apache",
+				},
+				{
+					skillName: "Apache Spark",
+					fontAwesomeClassname: "cib:apache-spark",
 				},
 				{
 					skillName: "PostgreSQL",
 					fontAwesomeClassname: "logos:postgresql",
 				},
 				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
+					skillName: "Gitlab CI CD",
+					fontAwesomeClassname: "logos:gitlab",
 				},
 				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
+					skillName: "Grafana",
+					fontAwesomeClassname: "logos:grafana",
 				},
 				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
+					skillName: "Terraform",
+					fontAwesomeClassname: "logos:terraform-icon",
 				},
 			],
 		},
 		{
-			title: "Blockchain",
+			title: "Machine Learning",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+					"⚡ Experience in different deep learning fields such as Object Detection, Image and Pointcloud segmentation."
 				),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+					"⚡ Researched Multi-Object Tracking in Remote Sensing scenarios and published the work on the International Conference for Pattern Recognition."
 				),
 			],
 			softwareSkills: [
 				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
+					skillName: "PyTorch",
+					fontAwesomeClassname: "logos:pytorch-icon",
 				},
 				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
+					skillName: "MlFlow",
+					fontAwesomeClassname: "simple-icons:mlflow",
 				},
 				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
+					skillName: "Tensorboard",
+					fontAwesomeClassname: "uil:meeting-board",
 				},
 				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
+					skillName: "Visual Object Tracking",
+					fontAwesomeClassname: "fluent:eye-tracking-24-regular",
 				},
 				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
+					skillName: "Pointcloud Classifcation and Segmentation",
+					fontAwesomeClassname: "icon-park-outline:six-points",
 				},
+				{
+					skillName: "Image Segmentation",
+					fontAwesomeClassname: "ic:baseline-image-search",
+				},
+				{
+					skillName: "Object Detection",
+					fontAwesomeClassname: "fluent:scan-object-24-filled",
+				}
 			],
 		},
 	],
 };
 
-export const SkillBars = [
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
-	},
-	{
-		Stack: "Backend",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Programming",
-		progressPercentage: "60",
-	},
-];
+// export const SkillBars = [
+//	{
+//		Stack: "Machine Learning", //Insert stack or technology you have experience in
+//		progressPercentage: "90", //Insert relative proficiency in percentage
+//	},
+//	{
+//		Stack: "Backend Development",
+//		progressPercentage: "70",
+//	},
+//	{
+//		Stack: "Deep Learning",
+//		progressPercentage: "60",
+//	},
+//	{
+//		Stack: "Programming",
+//		progressPercentage: "60",
+//	},
+//];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "Technical University of Munich",
+		subHeader: "Master of Science in Robotics, Cognition, Intelligence",
+		duration: "October 2017 - May 2020",
+		desc: "Research in deep learning based multi-object tracking",
+		grade: "Grade 1.9",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			'Thesis: "Multi-Object Tracking in Aerial and Satellite Imagery" (1.0)',
+			'ICPR Conference Paper: "AerialMPTNet: Multi-Pedestrian Tracking in Aerial Imagery Using Temporal and Graphical Features"',
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		role: "Machine Learning Engineer",
+		company: "Aerial Intelligence GmbH",
+		companylogo: "/img/icons/common/airteam.png",
+		date: "Jan 2022 – today",
+		desc: "Experienced Software & ML Engineer at Airteam responsible for Machine Learning & Backend Tasks. Implemented deep learning models for point cloud and mesh segmentation to simplify complex 3D models into simplified, non-primitive forms. Automatized and streamlined complex 3d model creation with photogrammetry, resulting in 95 % reduced human work hours. Skilled in developing web applications using Python, Django, and Django Rest (e.g. www.airteam.cloud), and utilizing Gitlab CI/CD with Docker. Developing and managing cloud infrastructure environments on AWS and GCP with Infrastructure as Code. Building Data Pipelines with Apache Beam, PubSub and BigQuery. Proficient in tools such as AWS, GCP, Terraform, PyTorch, Rhino, Jira, PostgreSql, Celery, Grafana, Sentry, Nginx and more."
 	},
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		role: "Machine Learning Intern",
+		company: "Deutsche Bahn AG",
+		companylogo: "/img/icons/common/db.png",
+		date: "Sep 2020 – Jan 2023",
+		desc: "As a part of an implementation team, I was responsible for developing a camera-based damage diagnosis system for cargo trains. I performed data analysis of train and damage data, integrating an object segmentation pipeline to detect different cargo train objects in object detector cutouts. I also created multiple datasets in different formats, implemented a GAN for anomaly detection, and used the AWS CLI to manage data in S3. Additionally, I created and hosted a Sphinx documentation to ensure effective project management.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
 	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Pointcloud Models",
+		desc: "Easily train and use different deep learning based point cloud models with predefined training routines and selectable loss functions and metrics. Tracking and logging to MlFlow is supported by default.",
+		github: "https://github.com/krausmaximilian/pointcloud-models",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Point clustering with Roofs",
+		desc: "Clustering point clouds into multiple surfaces while showcasing edges and corners in one cluster.",
+		github: "https://github.com/krausmaximilian/roof_detection",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		name: "Optimized Data Transfer",
+		desc: "Streamlining the daily transfer of millions of files through robust Apache Spark data pipelines. Using Terraform to spin up the necessary resources",
+		github: "todo",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "Python Default Project",
+		desc: "A small project that is useful when starting a new python project.",
+		github: "https://github.com/krausmaximilian/python-default-project",
+	},
+	{
+		name: "AerialMPTNet: Multi-Pedestrian Tracking in Aerial Imagery Using Temporal and Graphical Features",
+		desc: "We describe a new approach for multi-pedestrian tracking in geo-referenced aerial imagery called AerialMPTNet, which fuses appearance features, movement predictions, and pedestrian interconnections. We also introduce the Aerial Multi-Pedestrian Tracking (AerialMPT) dataset, which we believe to be the largest and most diverse dataset to date, and evaluate AerialMPTNet on AerialMPT and KIT AIS, showing significant improvement over other methods in accuracy and time-efficiency.",
+		link: "https://arxiv.org/abs/2006.15457",
+	},
+	{
+		name: "Identity Recognition in Intelligent Cars with Behavioral Data and LSTM-ResNet Classifier",
+		desc: "We present a solution for improving identity recognition in a car cabin using Time Series Classification (TSC) and deep neural networks. The input data, gas and brake pedal pressure, is easily collected during driving and the combination of LSTM and ResNet classifiers leads to an accuracy of 79.49% on a 10-drivers subset of NUDrive and 96.90% on a 5-drivers subset of UTDrive, outperforming other models by a large margin.",
+		link: "https://arxiv.org/abs/2003.00770",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "John Smith",
+		name: "Dr. Rachel A. Hegemann",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
+            "I worked with Max in the context of a large image processing project at the Deutsche Bahn. In the project we were investigating the quality of various state-of-the-Art anomaly detection algorithms for a fixed camera system problem. While working with Max I found him to be a very knowledgeable, curious and hard working. He was able to explain his work and process very clear both verbally and in written form. His work process was very clean and structured. On a personal level, it was a pleasure to work with Max as he quickly integrated into our team and made sizable contributions. I would highly recommend Max as a developer and believe he would also excell as a lead. He would be an asset to any team."
+    },
+    {
+		name: "Reza Bahmanyar",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"For about six months, Max worked on his Master's thesis in our team. His work ethic and time management skills impressed me as his supervisor. He always went above and beyond what we expected to achieve. He was always willing to put in the time and effort to do the research and find professional and scientific answers to the open questions during his research. Any team would be lucky to have Max on board and I would be delighted to recommend him to any company in need of new talent.",
 	},
 ];
 
@@ -293,19 +318,27 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Maximilian Kraus",
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	author: "Maximilian Kraus",
+	image: "",
+	url: "",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
+		"Maximilian",
+		"Maximilian Kraus",
+		"@krausmaximilian",
+		"krausmaximilian",
+		"@krausmax",
+		"krausmax",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Kraus Portfolio ",
+		"Maximilian Kraus Portfolio",
+		"cloud",
+		"infrastructure",
+		"backend",
+		"machine learning",
+		"aws",
+		"infrastructure as a service"
 	],
 }
