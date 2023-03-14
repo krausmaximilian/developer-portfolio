@@ -29,13 +29,7 @@ export const skillsSection = {
 			title: "Backend Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Creating and maintaining web application such as www.airteam.cloud"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
-				emoji(
-					"⚡ Hosting and maintaining web applications on virtual machine instances along with integration of databases"
-				),
+			    "Highly skilled in Python. Created and maintained RESTful APIs in Django & Django REST, as well as web applications such as www.airteam.cloud. Experienced in containerization with Docker.",
 			],
 			softwareSkills: [
 				{
@@ -51,6 +45,14 @@ export const skillsSection = {
 					fontAwesomeClassname: "skill-icons:django",
 				},
 				{
+					skillName: "Sendgrid",
+					fontAwesomeClassname: "logos:sendgrid",
+				},
+				{
+					skillName: "Celery",
+					fontAwesomeClassname: "simple-icons:celery",
+				},
+				{
 					skillName: "Docker",
 					fontAwesomeClassname: "logos:docker",
 				},
@@ -59,14 +61,9 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:pycharm",
 				},
 				{
-					skillName: "C Sharp",
+					skillName: "C#",
 					fontAwesomeClassname: "logos:c-sharp",
 				},
-				{
-					skillName: "Celery",
-					fontAwesomeClassname: "simple-icons:celery",
-				},
-
 				{
 					skillName: "Nginx",
 					fontAwesomeClassname: "vscode-icons:file-type-nginx",
@@ -105,18 +102,16 @@ export const skillsSection = {
 			title: "Cloud Infrastructure",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Infrastructure as Code"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Gitlab CI/CD"
-				),
+			    "Experienced in working on multiple cloud platforms with infrastructure as code and via UI. Built CI/CD pipelines with custom gitlab runners for automatic testing & deployment. Managed various web applications on AWS and GCP. Built data pipelines on Beam and Spark."
 			],
 			softwareSkills: [
 				{
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",
+				},
+	            {
+					skillName: "GCP",
+					fontAwesomeClassname: "logos:google-cloud",
 				},
 				{
 					skillName: "S3",
@@ -131,10 +126,6 @@ export const skillsSection = {
 					fontAwesomeClassname: "carbon:load-balancer-application",
 				},
 				{
-					skillName: "GCP",
-					fontAwesomeClassname: "logos:google-cloud",
-				},
-				{
 					skillName: "Big Query",
 					fontAwesomeClassname: "tabler:brand-google-big-query",
 				},
@@ -143,11 +134,11 @@ export const skillsSection = {
 					fontAwesomeClassname: "carbon:message-queue",
 				},
 				{
-					skillName: "Apache Beam",
+					skillName: "Beam",
 					fontAwesomeClassname: "logos:apache",
 				},
 				{
-					skillName: "Apache Spark",
+					skillName: "Spark",
 					fontAwesomeClassname: "cib:apache-spark",
 				},
 				{
@@ -172,12 +163,7 @@ export const skillsSection = {
 			title: "Machine Learning",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Experience in different deep learning fields such as Object Detection, Image and Pointcloud segmentation."
-				),
-				emoji(
-					"⚡ Researched Multi-Object Tracking in Remote Sensing scenarios and published the work on the International Conference for Pattern Recognition."
-				),
+					"Experience in different deep learning fields such as Object Detection & Tracking, Image & Pointcloud segmentation, as well as general classification problems. Experienced in setting up and using MlFlow for ML Lifecycle & experiment management, and model serving.",
 			],
 			softwareSkills: [
 				{
@@ -193,15 +179,15 @@ export const skillsSection = {
 					fontAwesomeClassname: "uil:meeting-board",
 				},
 				{
-					skillName: "Visual Object Tracking",
+					skillName: "Tracking",
 					fontAwesomeClassname: "fluent:eye-tracking-24-regular",
 				},
 				{
-					skillName: "Pointcloud Classifcation and Segmentation",
+					skillName: "Pointclouds",
 					fontAwesomeClassname: "icon-park-outline:six-points",
 				},
 				{
-					skillName: "Image Segmentation",
+					skillName: "Images",
 					fontAwesomeClassname: "ic:baseline-image-search",
 				},
 				{
@@ -251,15 +237,15 @@ export const experience = [
 		role: "Machine Learning Engineer",
 		company: "Aerial Intelligence GmbH",
 		companylogo: "/img/icons/common/airteam.png",
-		date: "Jan 2022 – today",
+		date: "Jan 2021 – today",
 		desc: "Experienced Software & ML Engineer at Airteam responsible for Machine Learning & Backend Tasks. Implemented deep learning models for point cloud and mesh segmentation to simplify complex 3D models into simplified, non-primitive forms. Automatized and streamlined complex 3d model creation with photogrammetry, resulting in 95 % reduced human work hours. Skilled in developing web applications using Python, Django, and Django Rest (e.g. www.airteam.cloud), and utilizing Gitlab CI/CD with Docker. Developing and managing cloud infrastructure environments on AWS and GCP with Infrastructure as Code. Building Data Pipelines with Apache Beam, PubSub and BigQuery. Proficient in tools such as AWS, GCP, Terraform, PyTorch, Rhino, Jira, PostgreSql, Celery, Grafana, Sentry, Nginx and more."
 	},
 	{
 		role: "Machine Learning Intern",
 		company: "Deutsche Bahn AG",
 		companylogo: "/img/icons/common/db.png",
-		date: "Sep 2020 – Jan 2023",
-		desc: "As a part of an implementation team, I was responsible for developing a camera-based damage diagnosis system for cargo trains. I performed data analysis of train and damage data, integrating an object segmentation pipeline to detect different cargo train objects in object detector cutouts. I also created multiple datasets in different formats, implemented a GAN for anomaly detection, and used the AWS CLI to manage data in S3. Additionally, I created and hosted a Sphinx documentation to ensure effective project management.",
+		date: "Sep 2020 – Jan 2021",
+		desc: "Developed parts of a camera-based damage diagnosis system for cargo trains. Performed data analysis of train and damage data, integrating an object segmentation pipeline to detect different cargo train objects in object detector cutouts. Created multiple datasets in different formats, implemented a GAN for anomaly detection, and used the AWS CLI to manage data in S3. Additionally, created and hosted a Sphinx documentation to ensure effective project management.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",

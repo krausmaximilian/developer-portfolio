@@ -20,9 +20,10 @@ const Skills = () => {
 									{section.softwareSkills.map((skill, i) => {
 										return (
 											<Fragment key={i}>
+											<div>
 												<div
-													className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
-													id={skill.skillName.replace(/\s/g, '')}
+													className="icon icon-lg icon-shape shadow-sm rounded-circle m-3"
+													id={skill.skillName.replace(/\s/g, '').replace("#", '')}
 												>
 													<Icon
 														icon={
@@ -34,10 +35,14 @@ const Skills = () => {
 												<UncontrolledTooltip
 													delay={0}
 													placement="bottom"
-													target={skill.skillName.replace(/\s/g, '')}
+													target={skill.skillName.replace(/\s/g, '').replace("#", '')}
 												>
 													{skill.skillName}
 												</UncontrolledTooltip>
+												<div>
+													<p>{skill.skillName}</p>
+												</div>
+											</div>
 											</Fragment>
 										);
 									})}
