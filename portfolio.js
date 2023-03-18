@@ -102,7 +102,7 @@ export const skillsSection = {
 			title: "Cloud Infrastructure",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-			    "Experienced in working on multiple cloud platforms with infrastructure as code and via UI. Built CI/CD pipelines with custom gitlab runners for automatic testing & deployment. Managed various web applications on AWS and GCP. Built data pipelines on Beam and Spark."
+			    "Experienced in working on multiple cloud platforms with infrastructure as code and via UI. Built CI/CD pipelines with custom gitlab runners for automatic testing & deployment. Managed various web applications on AWS and GCP. Built ETL pipelines with Apache Beam running with DataFlow."
 			],
 			softwareSkills: [
 				{
