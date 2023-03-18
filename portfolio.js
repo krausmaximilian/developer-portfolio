@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm a versatile software & ML engineer with expertise in backend development, machine learning, cloud infrastructure, and data pipelines. I consistently deliver high-quality solutions with a combination of technical expertise, creative problem-solving, and excellent collaboration skills.",
 	resumeLink:
-		"todo",
+		"https://max-kraus-public-bucket.s3.eu-central-1.amazonaws.com/documents/cv.pdf",
 };
 
 export const openSource = {
@@ -163,7 +163,7 @@ export const skillsSection = {
 			title: "Machine Learning",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
-					"Experience in different deep learning fields such as Object Detection & Tracking, Image & Pointcloud segmentation, as well as general classification problems. Experienced in setting up and using MlFlow for ML Lifecycle & experiment management, and model serving.",
+					"Experienced in different deep learning fields such as Object Detection & Tracking, Image & Pointcloud segmentation, as well as general classification problems. Skilled in setting up and using MlFlow for ML Lifecycle & experiment management, and model serving.",
 			],
 			softwareSkills: [
 				{
@@ -230,6 +230,16 @@ export const educationInfo = [
 			'ICPR Conference Paper: "AerialMPTNet: Multi-Pedestrian Tracking in Aerial Imagery Using Temporal and Graphical Features"',
 		],
 	},
+	{
+		schoolName: "Ludwig Maximilian University of Munich",
+		subHeader: "Bachelor of Science in Media Informatics",
+		duration: "October 2013 - May 2016",
+		grade: "Grade 1.8",
+		descBullets: [
+			'Thesis: "Development and Evaluation of a Dead Reckoning Solution for Indoor Positioning with Particle Filter and iBeacons" (1.0)',
+			'IPIN Conference Paper: "Robust pedestrian dead reckoning using anchor point recalibration"',
+		],
+	},
 ];
 
 export const experience = [
@@ -238,7 +248,7 @@ export const experience = [
 		company: "Aerial Intelligence GmbH",
 		companylogo: "/img/icons/common/airteam.png",
 		date: "Jan 2021 – today",
-		desc: "Experienced Software & ML Engineer at Airteam responsible for Machine Learning & Backend Tasks. Implemented deep learning models for point cloud and mesh segmentation to simplify complex 3D models into simplified, non-primitive forms. Automatized and streamlined complex 3d model creation with photogrammetry, resulting in 95 % reduced human work hours. Skilled in developing web applications using Python, Django, and Django Rest (e.g. www.airteam.cloud), and utilizing Gitlab CI/CD with Docker. Developing and managing cloud infrastructure environments on AWS and GCP with Infrastructure as Code. Building Data Pipelines with Apache Beam, PubSub and BigQuery. Proficient in tools such as AWS, GCP, Terraform, PyTorch, Rhino, Jira, PostgreSql, Celery, Grafana, Sentry, Nginx and more."
+		desc: "Experienced Software & ML Engineer at Airteam responsible for Machine Learning & Backend Tasks. Implemented deep learning models for point cloud and mesh segmentation to simplify complex 3D models into simplified, non-primitive forms. Automatized and streamlined complex 3d model creation with photogrammetry, resulting in 95 % reduced human work hours. Skilled in developing web applications using Python, Django, Django Rest and FastAPI (e.g. www.airteam.cloud), and utilizing Gitlab CI/CD with Docker. Developed and managed cloud infrastructure environments on AWS and GCP with Infrastructure as Code. Built Data Pipelines with Apache Beam, PubSub and BigQuery. Proficient in tools such as AWS, GCP, Terraform, PyTorch, Rhino, Jira, PostgreSql, Celery, Grafana, Sentry, Nginx and more."
 	},
 	{
 		role: "Machine Learning Intern",
@@ -293,7 +303,7 @@ export const feedbacks = [
             "I worked with Max in the context of a large image processing project at the Deutsche Bahn. In the project we were investigating the quality of various state-of-the-Art anomaly detection algorithms for a fixed camera system problem. While working with Max I found him to be a very knowledgeable, curious and hard working. He was able to explain his work and process very clear both verbally and in written form. His work process was very clean and structured. On a personal level, it was a pleasure to work with Max as he quickly integrated into our team and made sizable contributions. I would highly recommend Max as a developer and believe he would also excell as a lead. He would be an asset to any team."
     },
     {
-		name: "Reza Bahmanyar",
+		name: "Dr. Reza Bahmanyar",
 		feedback:
 			"For about six months, Max worked on his Master's thesis in our team. His work ethic and time management skills impressed me as his supervisor. He always went above and beyond what we expected to achieve. He was always willing to put in the time and effort to do the research and find professional and scientific answers to the open questions during his research. Any team would be lucky to have Max on board and I would be delighted to recommend him to any company in need of new talent.",
 	},
@@ -306,10 +316,10 @@ export const showContactUs = true;
 export const seoData = {
 	title: "Maximilian Kraus",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
+		"Experience Machine Learning & Software Developer",
 	author: "Maximilian Kraus",
 	image: "",
-	url: "",
+	url: "www.maximilian-kraus.de",
 	keywords: [
 		"Maximilian",
 		"Maximilian Kraus",
@@ -318,13 +328,16 @@ export const seoData = {
 		"@krausmax",
 		"krausmax",
 		"Portfolio",
-		"Kraus Portfolio ",
+		"Kraus Portfolio",
 		"Maximilian Kraus Portfolio",
 		"cloud",
 		"infrastructure",
 		"backend",
 		"machine learning",
+		"deep learning",
+		"ai",
+		"artificial intelligence",
 		"aws",
-		"infrastructure as a service"
+		"infrastructure as code"
 	],
 }
