@@ -316,7 +316,7 @@ export const showContactUs = true;
 export const seoData = {
 	title: "Maximilian Kraus",
 	description:
-		"Experience Machine Learning & Software Developer",
+		"Experienced Machine Learning & Software Developer",
 	author: "Maximilian Kraus",
 	image: "",
 	url: "www.maximilian-kraus.de",
