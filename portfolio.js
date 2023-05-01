@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Maximilian Kraus",
 	title: "Maximilian Kraus",
 	description:
-		"I'm a versatile software & ML engineer with expertise in backend development, machine learning, cloud infrastructure, and data pipelines. I consistently deliver high-quality solutions with a combination of technical expertise, creative problem-solving, and excellent collaboration skills.",
+		"I am a versatile software & ML engineer with expertise in backend development, machine learning, cloud infrastructure, and data pipelines. I consistently deliver high-quality solutions with a combination of technical expertise, creative problem-solving, and excellent collaboration skills.",
 	resumeLink:
 		"https://max-kraus-public-bucket.s3.eu-central-1.amazonaws.com/documents/cv.pdf",
 };
@@ -264,21 +264,21 @@ export const experience = [
 ];
 
 export const projects = [
-	{
-		name: "Pointcloud Models",
-		desc: "Easily train and use different deep learning based point cloud models with predefined training routines and selectable loss functions and metrics. Tracking and logging to MlFlow is supported by default.",
-		github: "https://github.com/krausmaximilian/pointcloud-models",
-	},
-	{
-		name: "Point clustering with Roofs",
-		desc: "Clustering point clouds into multiple surfaces while showcasing edges and corners in one cluster.",
-		github: "https://github.com/krausmaximilian/roof_detection",
-	},
-	{
-		name: "Optimized Data Transfer",
-		desc: "Streamlining the daily transfer of millions of files through robust Apache Spark data pipelines. Using Terraform to spin up the necessary resources",
-		github: "todo",
-	},
+	//{
+	//	name: "Pointcloud Models",
+	//	desc: "Easily train and use different deep learning based point cloud models with predefined training routines and selectable loss functions and metrics. Tracking and logging to MlFlow is supported by default.",
+	//	github: "https://github.com/krausmaximilian/pointcloud-models",
+	//},
+	//{
+	//	name: "Point clustering with Roofs",
+	//	desc: "Clustering point clouds into multiple surfaces while showcasing edges and corners in one cluster.",
+	//	github: "https://github.com/krausmaximilian/roof_detection",
+	//},
+	//{
+	//	name: "Optimized Data Transfer",
+	//	desc: "Streamlining the daily transfer of millions of files through robust Apache Beam data pipelines. Using Terraform to spin up the necessary resources.",
+	//	github: "todo",
+	//},
 	{
 		name: "Python Default Project",
 		desc: "A small project that is useful when starting a new python project.",
@@ -310,7 +310,7 @@ export const feedbacks = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs = true;
+export const showContactUs = false;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
